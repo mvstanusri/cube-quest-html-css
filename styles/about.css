@@ -139,3 +139,64 @@ body{
   height: 50px;
   width: 50px;
 }
+
+@media screen and (max-width: 768px){
+
+  
+  .navbar{
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .cq{
+    width: 50px;
+  }
+
+ 
+  .row-top,
+  .row-mid,
+  .row-bottom{
+    grid-template-columns: 1fr;
+  }
+
+
+  .about-1,
+  .about-2,
+  .about-3,
+  .about-4,
+  .about-5,
+  .about-6,
+  .about-7{
+    width: 100%;
+    padding: 20px;
+  }
+
+  
+  .tom{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+  }
+
+
+  .all-cubes{
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .about-7{
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .mini-footer{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}

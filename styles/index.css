@@ -122,3 +122,20 @@ body{
   height: 50px;
   width: 50px;
 }
+
+@media screen and (max-width: 768px){
+
+  
+  .navbar{
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .mini-footer{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}

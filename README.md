@@ -19,7 +19,7 @@ Cube Quest is a responsive frontend web project built using HTML and CSS. This p
 
 ## 🌐 Live Demo
 
-https://mvstanusri.github.io/cube-quest-html-css/
+https://tanxdebug.github.io/cube-quest-html-css/
 
 ## 📚 What I Learned
 
